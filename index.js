@@ -34,7 +34,7 @@ module.exports.getSession = options =>{
         return resolve(conn);
       });
     } else {
-      return reject('options object do not contains information required to authenticate ' + JSON.stringify(options))
+      return reject('options object do not contains information required to authenticate')
     }
   })
 }
