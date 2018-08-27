@@ -6,7 +6,7 @@ const jsforce = require('jsforce')
 let conn = null;
 
 module.exports.getSession = options =>{
-  return = new Promise((resolve,reject) => {
+  return new Promise((resolve,reject) => {
     if(conn !== null) {
       return resolve(conn);
     }
