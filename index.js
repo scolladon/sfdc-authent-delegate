@@ -1,7 +1,7 @@
 'use strict';
 const jsforce = require('jsforce')
      ,fs = require('fs')
-     ,jwt = require("salesforce-jwt-bearer-token-flow")
+     ,jwt = require('salesforce-jwt-bearer-token-flow')
 
 let conn = null;
 
